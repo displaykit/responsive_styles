@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/displaykit/responsive_styles/compare/v1.0.0...v2.0.0) (2022-09-20)
+
+
+### Features
+
+* unify deploy ([99250cd](https://github.com/displaykit/responsive_styles/commit/99250cdafeb61e0199b14db8938f74aba4f2017e))
+
+
+### BREAKING CHANGES
+
+* standardizing version in 2.0
+
 # 1.0.0 (2022-09-20)
 
 
