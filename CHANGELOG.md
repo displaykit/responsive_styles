@@ -1,3 +1,17 @@
+# 1.0.0 (2022-09-20)
+
+
+### Bug Fixes
+
+* add a small update to test the CI pipelines ([ff130d6](https://github.com/displaykit/responsive_styles/commit/ff130d68ef236f3b4541f606c43342f3e96dec6f))
+* add yarnlock updated ([0b0c252](https://github.com/displaykit/responsive_styles/commit/0b0c25215ec8eb7a9e95792ec0d3afc104d2945a))
+* rename example folder ([3b3832c](https://github.com/displaykit/responsive_styles/commit/3b3832c4078d3c874c3676c368daf95ff1bc9beb))
+* small bump ([f0bcf27](https://github.com/displaykit/responsive_styles/commit/f0bcf27317fcf066cf0e217706d2cbcbdee45175))
+* small bump ([5054e3e](https://github.com/displaykit/responsive_styles/commit/5054e3e495e7e777604c50e33500d5f9ba2509f7))
+* small bump ([2983400](https://github.com/displaykit/responsive_styles/commit/29834008f95c85add70130cbf1c862718cdb6aba))
+* small bump 2 ([81a4ec7](https://github.com/displaykit/responsive_styles/commit/81a4ec7df520ff0babfae01aeedd4c68ef02e6a9))
+* small update ([c50d846](https://github.com/displaykit/responsive_styles/commit/c50d8467c2b71118008faae69c30a0d4af87eae6))
+
 ## [1.10.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.10.2...v1.10.3) (2022-08-12)
 
 
