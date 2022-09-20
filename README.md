@@ -1,9 +1,9 @@
-# @skynexui/responsive_stylesheet
+# @displaykit/responsive_stylesheet
 
 > You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱
 
-[<img width="150px" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />](https://vercel.com/?utm_source=skynexui&utm_campaign=oss)
-[![licence mit](https://img.shields.io/badge/licence-MIT-blueviolet.svg)](LICENSE) ![Downloads](https://img.shields.io/npm/dw/@skynexui/responsive_stylesheet?color=orange) ![Current Version](https://img.shields.io/npm/v/@skynexui/responsive_stylesheet?color=success&label=version&cache=1) [![Flutter Package](https://img.shields.io/badge/skynexui__responsive__stylesheet-fluttter-blue)](https://pub.dev/packages/skynexui_responsive_stylesheet) [![NPM Package](https://img.shields.io/badge/@skynexui/responsive__stylesheet-npm-red)](https://www.npmjs.com/package/@skynexui/responsive_stylesheet)
+[<img width="150px" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />](https://vercel.com/?utm_source=displaykit&utm_campaign=oss)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blueviolet.svg)](LICENSE) ![Downloads](https://img.shields.io/npm/dw/@displaykit/responsive_stylesheet?color=orange) ![Current Version](https://img.shields.io/npm/v/@displaykit/responsive_stylesheet?color=success&label=version&cache=1) [![Flutter Package](https://img.shields.io/badge/responsive__stylesheet-fluttter-blue)](https://pub.dev/packages/displaykit_responsive_stylesheet) [![NPM Package](https://img.shields.io/badge/@displaykit/responsive__stylesheet-npm-red)](https://www.npmjs.com/package/@displaykit/responsive_stylesheet)
 
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
 
@@ -17,13 +17,13 @@ It's a set of common utility strategies to work with responsive styles with CSS 
 ### How to install?
 
 ```sh
-flutter pub add skynexui_responsive_stylesheet
+flutter pub add responsive_styles
 ```
 
 ### Get started
 
 - [Check this file to see a small example project](./example/with_flutter_sample/lib/flutter_basic/flutter_basic.dart)
-- [Go direct to usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/example/with_flutter_sample/lib/flutter_basic/flutter_basic.dart#L43)
+- [Go direct to usage in this line](https://github.com/displaykit/responsive_stylesheet/blob/main/example/with_flutter_sample/lib/flutter_basic/flutter_basic.dart#L43)
 
 ### Demo
 
@@ -61,13 +61,13 @@ body: Container(
 ### How to install?
 
 ```sh
-yarn add @skynexui/responsive_stylesheet
+yarn add @displaykit/responsive_stylesheet
 ```
 
 ### Get started
 
 - [Check this project to see a small example project](./example/with_react_sample)
-- [Go direct to usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/example/with_react_sample/pages/index.tsx#L9)
+- [Go direct to usage in this line](https://github.com/displaykit/responsive_stylesheet/blob/main/example/with_react_sample/pages/index.tsx#L9)
 
 ### Demo
 
