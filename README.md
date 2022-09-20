@@ -1,6 +1,6 @@
 # @displaykit/responsive_styles
 
-> You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱
+> You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱.
 
 [<img width="150px" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />](https://vercel.com/?utm_source=displaykit&utm_campaign=oss)
 [![licence mit](https://img.shields.io/badge/licence-MIT-blueviolet.svg)](LICENSE) ![Downloads](https://img.shields.io/npm/dw/@displaykit/responsive_styles?color=orange) ![Current Version](https://img.shields.io/npm/v/@displaykit/responsive_styles?color=success&label=version&cache=1) [![Flutter Package](https://img.shields.io/badge/responsive__stylesheet-fluttter-blue)](https://pub.dev/packages/displaykit_responsive_stylesheet) [![NPM Package](https://img.shields.io/badge/@displaykit/responsive__stylesheet-npm-red)](https://www.npmjs.com/package/@displaykit/responsive_styles)
