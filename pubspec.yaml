@@ -1,6 +1,6 @@
 name: responsive_styles
 description: You don't need to be worried just because you have to support multiple screens
-version: 1.10.3
+version: 1.10.4
 homepage: https://github.com/DisplayKit/responsive_styles
 
 environment:
