@@ -1,7 +1,7 @@
-name: skynexui_responsive_stylesheet
+name: responsive_styles
 description: You don't need to be worried just because you have to support multiple screens
 version: 1.10.3
-homepage: https://github.com/skynexui/responsive_stylesheet
+homepage: https://github.com/DisplayKit/responsive_styles
 
 environment:
   sdk: ">=2.17.5 <3.0.0"
