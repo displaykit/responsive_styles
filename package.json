@@ -37,7 +37,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.2",
     "shelljs": "^0.8.5",
     "@babel/core": "7.16.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.16.5",
