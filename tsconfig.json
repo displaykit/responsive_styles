@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "lib": ["es2017"],
+      "allowSyntheticDefaultImports": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "react",
+      "module": "es6",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "outDir": "./dist",
+      "preserveConstEnums": true,
+      "target": "es5",
+      "declaration": true,
+      "declarationDir": "types",
+      "sourceMap": true,
+      "emitDeclarationOnly": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "typeRoots": [
+        "./node_modules/@types",
+        "./@types"
+      ],
+      "baseUrl": ".",
+      "paths": {
+        "@lib/*": ["./lib/*"]
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "docs",
+      "examples",
+      "./types/**/*"
+    ]
+  }

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseStyleSheet() when receive an specific stylesheet rule and it is "crossAxisAlignment", must be converted to "alignItems" 1`] = `
+Object {
+  "&:focus, body.dark &.unique-id:focus": Object {
+    "@media (min-width: 0px)": Object {
+      "alignItems": "center",
+    },
+    "@media (min-width: 768px)": Object {
+      "alignItems": "stretch",
+    },
+  },
+  "&:hover, body.dark &.unique-id:hover": Object {
+    "@media (min-width: 0px)": Object {
+      "alignItems": "center",
+    },
+    "@media (min-width: 480px)": Object {
+      "alignItems": "stretch",
+    },
+  },
+  "alignItems": "stretch",
+}
+`;
+
+exports[`parseStyleSheet() when receive an specific stylesheet rule and it is "mainAxisAlignment", must be converted to "justifyContent" 1`] = `
+Object {
+  "&:focus, body.dark &.unique-id:focus": Object {
+    "@media (min-width: 0px)": Object {
+      "justifyContent": "center",
+    },
+    "@media (min-width: 768px)": Object {
+      "justifyContent": "stretch",
+    },
+  },
+  "&:hover, body.dark &.unique-id:hover": Object {
+    "@media (min-width: 0px)": Object {
+      "justifyContent": "center",
+    },
+    "@media (min-width: 480px)": Object {
+      "justifyContent": "stretch",
+    },
+  },
+  "justifyContent": "stretch",
+}
+`;
+
+exports[`parseStyleSheet() when receive default stylesheet rules and it has a stylesheet for hover and focus 1`] = `
+Object {
+  "&:focus, body.dark &.unique-id:focus": Object {
+    "backgroundColor": "black",
+  },
+  "&:hover, body.dark &.unique-id:hover": Object {
+    "backgroundColor": "blue",
+  },
+  "backgroundColor": "red",
+}
+`;
+
+exports[`parseStyleSheet() when receive default stylesheet rules and it has only a stylesheet rule vertical and horizontal 1`] = `
+Object {
+  "padding-bottom": "10px",
+  "padding-top": "10px",
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules and it has a stylesheet for hover and focus 1`] = `
+Object {
+  "&:focus, body.dark &.unique-id:focus": Object {
+    "@media (min-width: 0px)": Object {
+      "backgroundColor": "black",
+    },
+    "@media (min-width: 768px)": Object {
+      "backgroundColor": "grey",
+    },
+  },
+  "&:hover, body.dark &.unique-id:hover": Object {
+    "@media (min-width: 0px)": Object {
+      "backgroundColor": "blue",
+    },
+    "@media (min-width: 480px)": Object {
+      "backgroundColor": "navy",
+    },
+  },
+  "backgroundColor": "red",
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules and it has only 1 stylesheet rule with 1 breakpoint 1`] = `
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+  },
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules and it has only 1 stylesheet rule with 2 breakpoints 1`] = `
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+  },
+  "@media (min-width: 768px)": Object {
+    "backgroundColor": "black",
+  },
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules and it has only a stylesheet rule vertical and horizontal with 2 breakpoints 1`] = `
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+    "padding-bottom": "10px",
+    "padding-top": "10px",
+  },
+  "@media (min-width: 768px)": Object {
+    "padding-bottom": "20px",
+    "padding-top": "20px",
+  },
+  "@media (min-width: 992px)": Object {
+    "backgroundColor": "black",
+  },
+}
+`;

@@ -1,0 +1,40 @@
+name: Release Package - Dart/Flutter [MAIN]
+on:
+  release:
+    types: [published]
+
+env:
+  PUB_DEV_PUBLISH_ACCESS_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_ACCESS_TOKEN }}
+  PUB_DEV_PUBLISH_REFRESH_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_REFRESH_TOKEN }}
+  PUB_DEV_PUBLISH_TOKEN_ENDPOINT: ${{ secrets.PUB_DEV_PUBLISH_TOKEN_ENDPOINT }}
+  PUB_DEV_PUBLISH_EXPIRATION: ${{ secrets.PUB_DEV_PUBLISH_EXPIRATION }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image:  google/dart:latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: Setup credentials
+      run: | 
+        git config --global user.email "13791385+omariosouto@users.noreply.github.com"
+        git config --global user.name "CI Bot - DevSoutinho"
+        npm run release:dart:clean
+        mkdir -p ~/.pub-cache 
+        cat <<EOF > ~/.pub-cache/credentials.json
+        {
+          "accessToken":"${{ secrets.PUB_DEV_PUBLISH_ACCESS_TOKEN }}",
+          "refreshToken":"${{ secrets.PUB_DEV_PUBLISH_REFRESH_TOKEN }}",
+          "tokenEndpoint":"https://accounts.google.com/o/oauth2/token",
+          "scopes": [ "openid", "https://www.googleapis.com/auth/userinfo.email" ],
+          "expiration": ${{ secrets.PUB_DEV_PUBLISH_EXPIRATION }}
+        }
+        EOF
+    - name: Check Publish Warnings
+      run: pub publish --dry-run
+    - name: Publish package
+      run: pub publish -f
