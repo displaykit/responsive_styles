@@ -3,10 +3,10 @@
 ## How to import it?
 
 ```dart
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:responsive_styles/responsive_styles.dart';
 ```
 ```js
-import { breakpoints } from '@skynexui/responsive_stylesheet';
+import { breakpoints } from '@displaykit/responsive_styles';
 ```
 
 

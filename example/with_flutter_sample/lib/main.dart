@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:responsive_styles/responsive_styles.dart';
 import 'package:with_flutter_sample/chat_app_screen/chat_app_screen.dart';
 import 'package:with_flutter_sample/flutter_basic/flutter_basic.dart';
 import 'package:with_flutter_sample/holy_grail_layout/holy_grail_layout.dart';

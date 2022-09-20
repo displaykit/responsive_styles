@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:responsive_styles/responsive_styles.dart';
 
 class HolyGrailLayoutScreen extends StatelessWidget {
   const HolyGrailLayoutScreen({Key? key}) : super(key: key);

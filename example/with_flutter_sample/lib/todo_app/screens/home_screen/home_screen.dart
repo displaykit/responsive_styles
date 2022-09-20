@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:responsive_styles/responsive_styles.dart';
 import 'package:with_flutter_sample/todo_app/screens/home_screen/theme.dart';
 
 class HomeScreen extends StatefulWidget {

@@ -5,7 +5,7 @@
 ### Dart
 
 ```dart
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:responsive_styles/responsive_styles.dart';
 ```
 
 - `GridItem` is an abstraction to allow you to use Row and Column in a responsive way. You are able to combine it with `Responsive` and change which component will be used in a declarative way

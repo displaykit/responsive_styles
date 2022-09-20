@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { parseStyleSheet, StyleSheet } from "@skynexui/responsive_stylesheet";
+import { parseStyleSheet, StyleSheet } from "@displaykit/responsive_styles";
 
 const StyledBaseComponent = styled.div<any>`
   display: flex;

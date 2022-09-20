@@ -228,18 +228,18 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
+  responsive_styles:
+    dependency: "direct main"
+    description:
+      name: responsive_styles
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.99"
-  skynexui_responsive_stylesheet:
-    dependency: "direct main"
-    description:
-      name: skynexui_responsive_stylesheet
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.7.0"
   source_gen:
     dependency: transitive
     description:
