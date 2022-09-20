@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/displaykit/responsive_styles/compare/v2.0.1...v2.0.2) (2022-09-20)
+
+
+### Bug Fixes
+
+* **docs:** update examples and old references ([f351ed3](https://github.com/displaykit/responsive_styles/commit/f351ed3025e2e636a918d2bfc3c4c4b7ddbb3066))
+
 ## [2.0.1](https://github.com/displaykit/responsive_styles/compare/v2.0.0...v2.0.1) (2022-09-20)
 
 
