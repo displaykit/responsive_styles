@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skynexui_responsive_stylesheet/breakpoints/breakpoints.dart';
+import 'package:responsive_styles/breakpoints/breakpoints.dart';
 
 Breakpoints _getCurrentBreakpoint(double screenWidth) {
   if (screenWidth < breakpoints.sm) {

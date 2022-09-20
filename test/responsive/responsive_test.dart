@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:responsive_styles/responsive_styles.dart';
 
 class WidgetWithResponsiveOutput extends StatelessWidget {
   const WidgetWithResponsiveOutput({Key? key}) : super(key: key);
