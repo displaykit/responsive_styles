@@ -17,7 +17,7 @@
   "scripts": {
     "test": "jest",
     "test:flutter": "flutter test",
-    "release:dart:clean": "rm -rf examples && git add . && git commit -m 'deleting stuff before release'",
+    "release:dart:clean": "rm -rf example && git add . && git commit -m 'deleting stuff before release'",
     "lint": "eslint './lib/**/*.{ts,tsx}'",
     "lint:flutter": "dart analyze ./lib",
     "test:watch": "yarn test --watch",

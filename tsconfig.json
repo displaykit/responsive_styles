@@ -31,7 +31,7 @@
     "exclude": [
       "node_modules",
       "docs",
-      "examples",
+      "example",
       "./types/**/*"
     ]
   }
