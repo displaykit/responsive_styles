@@ -1,4 +1,4 @@
-library responsive_stylesheet;
+library responsive_styles;
 
 export 'breakpoints/breakpoints.dart';
 export 'responsive/responsive.dart';
