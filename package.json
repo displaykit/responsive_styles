@@ -1,5 +1,5 @@
 {
-  "name": "@skynexui/responsive_stylesheet",
+  "name": "@displaykit/responsive_styles",
   "description": "You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱",
   "version": "1.10.4",
   "license": "MIT",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/skynexui/responsive_stylesheet.git"
+    "url": "https://github.com/displaykit/responsive_styles.git"
   },
   "scripts": {
     "test": "jest",
