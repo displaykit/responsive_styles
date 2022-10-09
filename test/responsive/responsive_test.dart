@@ -18,6 +18,22 @@ class WidgetWithResponsiveOutput extends StatelessWidget {
   }
 }
 
+// TODO: Add tests on top of this
+class WidgetWithResponsiveOutputByBuildContext extends StatelessWidget {
+  const WidgetWithResponsiveOutputByBuildContext({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    var outputValue = context.responsive.value({
+      Breakpoints.xs: 'xs',
+      Breakpoints.sm: 'sm',
+      Breakpoints.md: 'md',
+      Breakpoints.lg: 'lg',
+      Breakpoints.xl: 'xl',
+    });
+    return Text("Screen: $outputValue");
+  }
+}
+
 class WidgetWithResponsiveScreenWidthPercentageAccess extends StatelessWidget {
   final double percent;
   const WidgetWithResponsiveScreenWidthPercentageAccess(
