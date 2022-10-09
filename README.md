@@ -95,9 +95,9 @@ yarn add @displaykit/responsive_styles
 
 | Feature.                                                     | Dart/Flutter | JavaScript/React |
 | ---                                                          | ---              | ---          |
-| [Responsive](./lib/responsive//responsive.md)                | ✅               | ❌            |
+| [Responsive](./lib/responsive/responsive.md)                | ✅               | ❌            |
 | [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
-| [GridItem](./lib/grid-item//grid_item.md)                    | ✅               | 🚧            |
+| [GridItem](./lib/grid-item/grid_item.md)                    | ✅               | 🚧            |
 | BreakpointsProvider                                          | 🚧               | 🚧            |
 | parseStylesheet                                              | 🚧               | ✅            |
 | StyleSheet                                                   | 🚧               | ✅            |
