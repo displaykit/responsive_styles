@@ -95,3 +95,7 @@ class Responsive {
     return resolveValueForBreakpoint(value, activeBreakpoint);
   }
 }
+
+extension ResponsiveStyles on BuildContext {
+  Responsive get responsive => Responsive(this);
+}

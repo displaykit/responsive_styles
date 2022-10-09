@@ -41,6 +41,24 @@ var outputValue = responsive.screenWidth.value; // 1000
 var outputValue = responsive.screenWidth.percent(40); // 400
 ```
 
+- You can also use responsive directlu through the Flutter build context:
+```dart
+class WidgetWithResponsiveOutputByBuildContext extends StatelessWidget {
+  const WidgetWithResponsiveOutputByBuildContext({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    var outputValue = context.responsive.value({
+      Breakpoints.xs: 'xs',
+      Breakpoints.sm: 'sm',
+      Breakpoints.md: 'md',
+      Breakpoints.lg: 'lg',
+      Breakpoints.xl: 'xl',
+    });
+    return Text("Screen: $outputValue");
+  }
+}
+```
+
 
 ### JavaScript
 
