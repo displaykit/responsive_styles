@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/displaykit/responsive_styles/compare/v2.0.2...v2.1.0) (2022-10-09)
+
+
+### Features
+
+* add extension on build context ([#1](https://github.com/displaykit/responsive_styles/issues/1)) ([a63b914](https://github.com/displaykit/responsive_styles/commit/a63b914d07360d296cdbb02c2b33c7439a0c5618))
+
 ## [2.0.2](https://github.com/displaykit/responsive_styles/compare/v2.0.1...v2.0.2) (2022-09-20)
 
 
