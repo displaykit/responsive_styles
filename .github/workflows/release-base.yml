@@ -24,6 +24,7 @@ jobs:
         flutter-version: '3.0.3'
     - name: "Start: Unit Testing"
       run: |
+        cd ./package
         flutter pub get
         yarn install
         yarn test
@@ -42,6 +43,7 @@ jobs:
         flutter-version: '3.0.3'
     - name: "Start: Unit Testing"
       run: |
+        cd ./package
         flutter pub get
         yarn install
         yarn lint
@@ -66,11 +68,13 @@ jobs:
           GIT_AUTHOR_NAME: "@bumper-bot"
           GITHUB_TOKEN: ${{ secrets.GH_GLOBAL_TOKEN }}
         run: |
+          cd ./package
           echo 'Run Flutter CI Steps'
           echo $GITHUB_TOKEN
           yarn build
           yarn release
       - name: Release GitHub Registry
         run: |
+          cd ./package
           echo '//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}' > ~/.npmrc
           yarn release:github_registry
