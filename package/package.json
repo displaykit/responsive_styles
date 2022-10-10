@@ -32,8 +32,8 @@
     "bump:flutter": "node ./scripts/bumpFlutter.js",
     "postversion": "yarn bump:flutter && git add .",
     "deploy:flutterweb:demopreview": "node ./scripts/pullRequestPreview.js",
-    "deploy:flutterweb:demo_base": "cd example/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL",
-    "deploy:flutterweb:demo": "cd example/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL --prod"
+    "deploy:flutterweb:demo_base": "cd ../example/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL",
+    "deploy:flutterweb:demo": "cd ../example/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL --prod"
   },
   "dependencies": {},
   "devDependencies": {

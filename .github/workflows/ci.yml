@@ -25,6 +25,7 @@ jobs:
           flutter-version: "3.0.3"
       - name: "Start: Unit Testing"
         run: |
+          cd ./package
           flutter pub get
           yarn install
           yarn test
@@ -39,8 +40,9 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           flutter-version: "3.0.3"
-      - name: "Start: Unit Testing"
+      - name: "Start: Lint"
         run: |
+          cd ./package
           flutter pub get
           yarn install
           yarn lint
@@ -60,5 +62,6 @@ jobs:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID__DEMO_FLUTTER }}
         run: |
+          cd ./package
           yarn install
           yarn deploy:flutterweb:demopreview
