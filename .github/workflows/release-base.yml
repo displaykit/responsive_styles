@@ -61,14 +61,13 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 17
-      - name: Install dependencies
-        run: yarn install
       - name: Release NPM Registry
         env:
           GIT_AUTHOR_NAME: "@bumper-bot"
           GITHUB_TOKEN: ${{ secrets.GH_GLOBAL_TOKEN }}
         run: |
           cd ./package
+          yarn install
           echo 'Run Flutter CI Steps'
           echo $GITHUB_TOKEN
           yarn build
