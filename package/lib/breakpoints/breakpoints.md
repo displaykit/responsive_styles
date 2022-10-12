@@ -35,7 +35,7 @@ class WidgetWithResponsiveOutput extends StatelessWidget {
 }
 ```
 
-- How to customize the default breakpoints?
+#### How to customize the default breakpoints?
 
 ```dart
 class MyApp extends StatelessWidget {
