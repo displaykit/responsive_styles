@@ -1,3 +1,12 @@
+## [2.2.3](https://github.com/displaykit/responsive_styles/compare/v2.2.2...v2.2.3) (2022-10-12)
+
+
+### Bug Fixes
+
+* **docs:** change default values for breakpoints ([e4f4ada](https://github.com/displaykit/responsive_styles/commit/e4f4ada2a6222be6fedf241e57dfb4333e9d6d4f))
+* **docs:** small update in readme links ([5a330e3](https://github.com/displaykit/responsive_styles/commit/5a330e315bfc799dba18908ed8a47e743b8aedc6))
+* **docs:** update links to demos ([e2a2e6a](https://github.com/displaykit/responsive_styles/commit/e2a2e6a7437808fec38c283940aee6ab673f3fd6))
+
 ## [2.2.2](https://github.com/displaykit/responsive_styles/compare/v2.2.1...v2.2.2) (2022-10-12)
 
 
