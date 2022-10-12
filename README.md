@@ -8,8 +8,8 @@
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
 
 ## Summary
-- [Dart/Flutter](#dartflutter-🐦)
-- [JavaScript/React](#javascriptreact-⚛)
+- [Dart/Flutter](#dartflutter-)
+- [JavaScript/React](#javascriptreact-)
 - [Docs](#docs)
 
 ## Dart/Flutter 🐦
@@ -33,7 +33,7 @@ flutter pub add responsive_styles
 
 ```dart
 body: Container(
-  color: responsive.value({
+  color: context.responsive.value({
     Breakpoints.xs: Colors.red.shade200,
     Breakpoints.sm: Colors.yellow.shade200,
     Breakpoints.md: Colors.green.shade200,
@@ -93,11 +93,11 @@ Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
 
 
 | Feature.                                                     | Dart/Flutter | JavaScript/React |
-| ---                                                          | ---              | ---          |
-| [Responsive](./lib/responsive/responsive.md)                 | ✅               | ❌            |
-| [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
-| [GridItem](./lib/grid-item/grid_item.md)                     | ✅               | 🚧            |
-| [BreakpointsBaseValues](./lib/breakpoints/breakpoints.md)    | ✅               | 🚧            |
+| ---                                                          | ---          | ---              |
+| [Responsive](./lib/responsive/responsive.md)                 | ✅           | ❌               |
+| [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅           | ✅               |
+| [GridItem](./lib/grid-item/grid_item.md)                     | ✅           | 🚧               |
+| [BreakpointsBaseValues](./lib/breakpoints/breakpoints.md)    | ✅           | 🚧               |
 
 > ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
 
