@@ -97,10 +97,7 @@ Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
 | [Responsive](./lib/responsive/responsive.md)                 | ✅               | ❌            |
 | [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
 | [GridItem](./lib/grid-item/grid_item.md)                     | ✅               | 🚧            |
-| [BreakpointsBaseValues](./lib/breakpoints/breakpoints.md)    | 🚧               | 🚧            |
-| parseStylesheet                                              | 🚧               | ✅            |
-| StyleSheet                                                   | 🚧               | ✅            |
-| BaseComponent                                                | 🚧               | 🚧            |
+| [BreakpointsBaseValues](./lib/breakpoints/breakpoints.md)    | ✅               | 🚧            |
 
 > ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
 
