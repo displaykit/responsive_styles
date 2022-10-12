@@ -12,6 +12,8 @@ It's a set of common utility strategies to work with responsive styles with CSS 
 - [JavaScript/React](#javascriptreact-)
 - [Docs](#docs)
 
+---
+
 ## Dart/Flutter 🐦
 
 ### How to install?
@@ -56,6 +58,8 @@ body: Container(
 - [Chat App](https://displaykit-flutter-demo.vercel.app/#/chat-app)
   - [Code](./example/with_flutter_sample/lib/chat_app_screen/chat_app_screen.dart)
 
+---
+
 ## JavaScript/React ⚛
 
 ### How to install?
@@ -73,6 +77,8 @@ yarn add @displaykit/responsive_styles
 
 - [Check it out live!](https://displaykit-flutter-demo.vercel.app/)
 
+---
+
 ## Docs
 
 ### What are the default values for the breakpoints?
@@ -85,9 +91,9 @@ yarn add @displaykit/responsive_styles
 
 > All values from here came from other libraries and responsive Front End frameworks.
 
-### Can I customize the breakpoints?
+### Can I customize the breakpoint base values?
 
-Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
+Actually yes! Just follow [this tutorial](https://github.com/displaykit/responsive_styles/blob/main/package/lib/breakpoints/breakpoints.md#how-to-customize-the-default-breakpoints)
 
 ### Resources and features
 
@@ -105,7 +111,7 @@ Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
 
 ### Contributing
 
-Want to contribute to the project? [Check our guide with how and our code guidelines](CONTRIBUTING.md)
+Want to contribute to the project? [Check our guide with how and our code guidelines](./CONTRIBUTING.md)
 
 ### How to report a bug?
 
