@@ -67,7 +67,7 @@ yarn add @displaykit/responsive_styles
 ### Get started
 
 - [Check this project to see a small example project](./example/with_react_sample)
-- [Go direct to usage in this line](https://github.com/displaykit/responsive_styles/blob/main/example/with_react_sample/pages/index.tsx#L9)
+- [Go direct to usage in this line](./example/with_react_sample/pages/index.tsx#L9)
 
 ### Demo
 
@@ -95,7 +95,7 @@ Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
 | Feature.                                                             | Dart/Flutter | JavaScript/React |
 | ---                                                                  | ---          | ---              |
 | [Responsive](./package/lib/responsive/responsive.md)                 | ✅           | ❌               |
-| [breakpoints](./package/lib/breakpoints/breakpoints.md).             | ✅           | ✅               |
+| [breakpoints](./package/lib/breakpoints/breakpoints.md)              | ✅           | ✅               |
 | [GridItem](./package/lib/grid-item/grid_item.md)                     | ✅           | 🚧               |
 | [BreakpointsBaseValues](./package/lib/breakpoints/breakpoints.md)    | ✅           | 🚧               |
 
@@ -113,4 +113,4 @@ Please just open an issue with a link do a small reproduction of the bug and let
 
 ### License
 
-[MIT License](license) © [Mario Souto](https://mariosouto.com/)
+[MIT License](./LICENSE) © [Mario Souto](https://mariosouto.com/)
