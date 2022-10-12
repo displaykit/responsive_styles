@@ -44,6 +44,13 @@ class HomeScreen extends StatelessWidget {
       {"name": 'Todo App Sample', "href": "/$appRoutesNamespace"},
     ];
     return Scaffold(
+      backgroundColor: context.responsive.value({
+        Breakpoints.xs: Colors.red,
+        Breakpoints.sm: Colors.blue,
+        Breakpoints.md: Colors.yellow,
+        Breakpoints.lg: Colors.purple,
+        Breakpoints.xl: Colors.orange,
+      }),
       body: Center(
         child: GridItem(
           crossAxisAlignment: CrossAxisAlignment.center,

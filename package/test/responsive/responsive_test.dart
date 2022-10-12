@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:responsive_styles/responsive_styles.dart';
 
+const breakpoints = ThemeBreakpoints();
+
 class WidgetWithResponsiveOutput extends StatelessWidget {
   const WidgetWithResponsiveOutput({Key? key}) : super(key: key);
   @override
