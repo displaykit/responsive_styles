@@ -45,16 +45,16 @@ body: Container(
 
 > [Learn more looking at the code example with a small implementation](./example/with_flutter_sample/lib/flutter_basic/flutter_basic.dart#L43)
 >
-> [Or this one of the gif with the Web "Holy Grail Layout"](./example/with_flutter_sample/lib/holy-grail-layout.dart)
+> [Or this one of the gif with the Web "Holy Grail Layout"](./example/with_flutter_sample/lib/holy_grail_layout/holy_grail_layout.dart#L26)
 
 #### Other demos
 
 - [Basic demo](https://responsive-stylesheet-flutter-demo.vercel.app/#/)
   - [Code](./example/with_flutter_sample/lib/flutter_basic/flutter_basic.dart)
 - [Holy grail layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
-  - [Code](./example/with_flutter_sample/lib/holy-grail-layout/holy-grail-layout.dart)
+  - [Code](./example/with_flutter_sample/lib/holy_grail_layout/holy_grail_layout.dart)
 - [Chat App](https://responsive-stylesheet-flutter-demo.vercel.app/#/chat-app)
-  - [Code](./example/with_flutter_sample/lib/chat-app-screen/chat-app-screen.dart)
+  - [Code](./example/with_flutter_sample/lib/chat_app_screen/chat_app_screen.dart)
 
 ## JavaScript/React ⚛
 
@@ -92,12 +92,12 @@ Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
 ### Resources and features
 
 
-| Feature.                                                     | Dart/Flutter | JavaScript/React |
-| ---                                                          | ---          | ---              |
-| [Responsive](./lib/responsive/responsive.md)                 | ✅           | ❌               |
-| [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅           | ✅               |
-| [GridItem](./lib/grid-item/grid_item.md)                     | ✅           | 🚧               |
-| [BreakpointsBaseValues](./lib/breakpoints/breakpoints.md)    | ✅           | 🚧               |
+| Feature.                                                             | Dart/Flutter | JavaScript/React |
+| ---                                                                  | ---          | ---              |
+| [Responsive](./package/lib/responsive/responsive.md)                 | ✅           | ❌               |
+| [breakpoints](./package/lib/breakpoints/breakpoints.md).             | ✅           | ✅               |
+| [GridItem](./package/lib/grid-item/grid_item.md)                     | ✅           | 🚧               |
+| [BreakpointsBaseValues](./package/lib/breakpoints/breakpoints.md)    | ✅           | 🚧               |
 
 > ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
 
