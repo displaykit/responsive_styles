@@ -3,9 +3,11 @@
 ## How to import it?
 
 ```dart
+// # Dart
 import 'package:responsive_styles/responsive_styles.dart';
 ```
 ```js
+// # JavaScript
 `Comming Soon...`
 ```
 
@@ -14,7 +16,7 @@ import 'package:responsive_styles/responsive_styles.dart';
 
 ### Dart
 
-- Combined with `Breakpoints`, you are allowed to provide different values for each resolution in a declarative way using the `.value` method:
+- Combined with `Breakpoints`, you are allowed to provide different values for each screen resolution in a declarative way using the `.value` method:
 
 ```dart
 class WidgetWithResponsiveOutput extends StatelessWidget {
@@ -41,7 +43,7 @@ var outputValue = responsive.screenWidth.value; // 1000
 var outputValue = responsive.screenWidth.percent(40); // 400
 ```
 
-- You can also use responsive directlu through the Flutter build context:
+- You can also use responsive directly through the Flutter `BuildContext`:
 ```dart
 class WidgetWithResponsiveOutputByBuildContext extends StatelessWidget {
   const WidgetWithResponsiveOutputByBuildContext({Key? key}) : super(key: key);

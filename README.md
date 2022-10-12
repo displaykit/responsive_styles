@@ -87,18 +87,17 @@ yarn add @displaykit/responsive_styles
 
 ### Can I customize the breakpoints?
 
-**Today, no**. But it's in the have a way to do this but the names `xs`...`xl` will remain part of the library to make it easier to use the abstractions.
+Actually yes! Just follow [this tutorial](./lib/breakpoints/breakpoints.md)
 
 ### Resources and features
 
-<!-- TODO: Auto-generate this section based on the files -->
 
 | Feature.                                                     | Dart/Flutter | JavaScript/React |
 | ---                                                          | ---              | ---          |
-| [Responsive](./lib/responsive/responsive.md)                | ✅               | ❌            |
+| [Responsive](./lib/responsive/responsive.md)                 | ✅               | ❌            |
 | [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
-| [GridItem](./lib/grid-item/grid_item.md)                    | ✅               | 🚧            |
-| BreakpointsProvider                                          | 🚧               | 🚧            |
+| [GridItem](./lib/grid-item/grid_item.md)                     | ✅               | 🚧            |
+| [BreakpointsBaseValues](./lib/breakpoints/breakpoints.md)    | 🚧               | 🚧            |
 | parseStylesheet                                              | 🚧               | ✅            |
 | StyleSheet                                                   | 🚧               | ✅            |
 | BaseComponent                                                | 🚧               | 🚧            |

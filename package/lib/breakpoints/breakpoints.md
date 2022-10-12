@@ -35,6 +35,44 @@ class WidgetWithResponsiveOutput extends StatelessWidget {
 }
 ```
 
+- How to customize the default breakpoints?
+
+```dart
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return BreakpointsBaseValues(
+      // You just have to call de BaseValues component and give to it the "themeBreakpoints"
+      themeBreakpoints: const ThemeBreakpoints(
+        xs: 0,
+        sm: 600,
+        md: 700,
+        lg: 800,
+        xl: 900,
+      ),
+      color: Colors.blue,
+      child: MaterialApp(
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          fontFamily: 'sans-serif',
+          primarySwatch: Colors.orange,
+        ),
+        routes: {
+          '/': (context) => const HomeScreen(),
+          '/flutter-basic': (context) =>
+              const FlutterBasic(title: 'Flutter Demo Home Page'),
+          '/holy-grail-layout': (context) => const HolyGrailLayoutScreen(),
+          '/chat-app': (context) => const ChatAppScreen(),
+          ...todoAppRoutes
+        },
+      ),
+    );
+  }
+}
+```
+
 
 ### JavaScript
 
