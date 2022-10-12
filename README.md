@@ -27,7 +27,7 @@ flutter pub add responsive_styles
 
 ### Demo
 
-- [Check it out live!](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
+- [Check it out live!](https://displaykit-flutter-demo.vercel.app/#/holy-grail-layout)
 
 ![CleanShot 2022-07-27 at 16 27 30](https://user-images.githubusercontent.com/13791385/181355905-6729a384-29a9-40b9-ac8d-caada1ded825.gif)
 
@@ -49,11 +49,11 @@ body: Container(
 
 #### Other demos
 
-- [Basic demo](https://responsive-stylesheet-flutter-demo.vercel.app/#/)
+- [Basic demo](https://displaykit-flutter-demo.vercel.app/#/)
   - [Code](./example/with_flutter_sample/lib/flutter_basic/flutter_basic.dart)
-- [Holy grail layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
+- [Holy grail layout](https://displaykit-flutter-demo.vercel.app/#/holy-grail-layout)
   - [Code](./example/with_flutter_sample/lib/holy_grail_layout/holy_grail_layout.dart)
-- [Chat App](https://responsive-stylesheet-flutter-demo.vercel.app/#/chat-app)
+- [Chat App](https://displaykit-flutter-demo.vercel.app/#/chat-app)
   - [Code](./example/with_flutter_sample/lib/chat_app_screen/chat_app_screen.dart)
 
 ## JavaScript/React ⚛
@@ -71,7 +71,7 @@ yarn add @displaykit/responsive_styles
 
 ### Demo
 
-- [Check it out live!](https://responsive-stylesheet-react-demo.vercel.app/)
+- [Check it out live!](https://displaykit-flutter-demo.vercel.app/)
 
 ## Docs
 
