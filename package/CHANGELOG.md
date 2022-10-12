@@ -1,3 +1,11 @@
+## [2.2.2](https://github.com/displaykit/responsive_styles/compare/v2.2.1...v2.2.2) (2022-10-12)
+
+
+### Bug Fixes
+
+* **docs:** fix broken links in docs ([5f5a2af](https://github.com/displaykit/responsive_styles/commit/5f5a2af3f95884a7c2eca0ad17216daf7b3c8567))
+* **docs:** readme broken license link ([221a9d8](https://github.com/displaykit/responsive_styles/commit/221a9d862b1eb735601fcfb271a094c6aca4d891))
+
 ## [2.2.1](https://github.com/displaykit/responsive_styles/compare/v2.2.0...v2.2.1) (2022-10-12)
 
 
