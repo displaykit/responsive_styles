@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/displaykit/responsive_styles/compare/v2.2.3...v2.3.0) (2022-10-17)
+
+
+### Features
+
+* fix the docs and trigger a release ([b4b4aed](https://github.com/displaykit/responsive_styles/commit/b4b4aed26af4a8d7db33801f3f8f9fccda7e66fb))
+
 ## [2.2.3](https://github.com/displaykit/responsive_styles/compare/v2.2.2...v2.2.3) (2022-10-12)
 
 
