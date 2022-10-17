@@ -1,4 +1,4 @@
-# @displaykit/responsive_styles
+# @displaykit/responsive_styles:
 
 > You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱.
 
