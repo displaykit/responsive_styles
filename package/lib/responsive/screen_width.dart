@@ -1,12 +1,12 @@
 class ScreenWidth {
-  final double widthValue;
-  const ScreenWidth(this.widthValue);
+  final double _widthValue;
+  const ScreenWidth(this._widthValue);
 
   double get value {
-    return widthValue;
+    return _widthValue;
   }
 
   double percent(double percent) {
-    return widthValue * (percent / 100);
+    return _widthValue * (percent / 100);
   }
 }
