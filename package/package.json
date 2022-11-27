@@ -1,7 +1,7 @@
 {
   "name": "@displaykit/responsive_styles",
   "description": "You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "license": "MIT",
   "private": false,
   "types": "dist/index.d.ts",

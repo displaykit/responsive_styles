@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/displaykit/responsive_styles/compare/v2.3.0...v2.3.1) (2022-11-27)
+
+
+### Bug Fixes
+
+* remove exposed internal variable on width ([#4](https://github.com/displaykit/responsive_styles/issues/4)) ([7ee4fa2](https://github.com/displaykit/responsive_styles/commit/7ee4fa276c3a627555718bc4e0f0ac19f3179547))
+
 # [2.3.0](https://github.com/displaykit/responsive_styles/compare/v2.2.3...v2.3.0) (2022-10-17)
 
 
